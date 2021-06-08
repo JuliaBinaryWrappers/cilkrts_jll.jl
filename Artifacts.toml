@@ -1,0 +1,54 @@
+[[cilkrts]]
+arch = "aarch64"
+git-tree-sha1 = "be5cbb0a1767ed9fd7279cbe7d0e6d8f9f4df79e"
+libc = "glibc"
+os = "linux"
+
+    [[cilkrts.download]]
+    sha256 = "a835a8a588f805605c2f7ec7b89c883b01170c055f6c05e543d291ee161b5972"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.aarch64-linux-gnu.tar.gz"
+[[cilkrts]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "983e2d73e8deee70e172f3b5eef919431c15e0d3"
+libc = "glibc"
+os = "linux"
+
+    [[cilkrts.download]]
+    sha256 = "8835006f62711f7d418dada20b5e6b4a68d58d1251179b1376f89941259067b3"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.armv7l-linux-gnueabihf.tar.gz"
+[[cilkrts]]
+arch = "i686"
+git-tree-sha1 = "367655f34292a3046fac88541644193af1821adf"
+libc = "glibc"
+os = "linux"
+
+    [[cilkrts.download]]
+    sha256 = "25bca588e6f3eccd65f7e53568602d05992b4d21a839e816e89220844e78eb96"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.i686-linux-gnu.tar.gz"
+[[cilkrts]]
+arch = "powerpc64le"
+git-tree-sha1 = "06b467d4c788055decba7abca4e7ee96baf2b5ee"
+libc = "glibc"
+os = "linux"
+
+    [[cilkrts.download]]
+    sha256 = "edcefbf546fc5d2f1a56a0f118050e1be3a5a28abb3f4c79455d5bc05f4fa82f"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.powerpc64le-linux-gnu.tar.gz"
+[[cilkrts]]
+arch = "x86_64"
+git-tree-sha1 = "9900466e9398f50bba0902dea711d0495747d8b3"
+os = "macos"
+
+    [[cilkrts.download]]
+    sha256 = "ed19ccc280108b98e39eee5ef92f1391e7a81b01e77bf4ba97b118aecf6530ed"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.x86_64-apple-darwin.tar.gz"
+[[cilkrts]]
+arch = "x86_64"
+git-tree-sha1 = "b3a4260ac422eaddbd11cbd9bbaaa6f8a7fedd18"
+libc = "glibc"
+os = "linux"
+
+    [[cilkrts.download]]
+    sha256 = "50406b53581fd26879a4fd2a8209098aef7ee8de38371b1c5970eb6f4ce315b6"
+    url = "https://github.com/JuliaBinaryWrappers/cilkrts_jll.jl/releases/download/cilkrts-v0.1.2+0/cilkrts.v0.1.2.x86_64-linux-gnu.tar.gz"
